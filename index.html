@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Mutual - Insurance and Financial Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.6s ease-in-out;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; 
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                        url(assets/images/OIP\ \(3\).jpeg) no-repeat center center/cover;
+            z-index: 0;
+            transition: transform 1s ease;
+            background-attachment: fixed;
+        }
+
+        .hero:hover::before {
+            transform: scale(1.05);
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+            padding: 100px 0;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/OMU.JO-4aa2b32b.png" alt="Old Mutual Logo">
+                <span class="brand-name">Old Mutual</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="hero">
+        <div class="container">
+            <h1>We Are For The People</h1>
+            <p>Providing trusted insurance and financial solutions for over 175 years</p>
+            <a href="services.html" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    
+    <section class="quotes">
+        <div class="container">
+            <blockquote>"Helping you achieve your financial goals and protect what matters most"</blockquote>
+        </div>
+    </section>
+
+    
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose Old Mutual?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Trusted Protection</h3>
+                    <p>Over 175 years of experience in protecting families and assets</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Financial Solutions</h3>
+                    <p>Comprehensive financial planning and investment options</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated customer service whenever you need it</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Secure Your Future?</h2>
+            <p>Get a free quote today and discover how we can help protect what matters most to you</p>
+            <a href="contact.html" class="btn">Get a Quote</a>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#life">Life Insurance</a></li>
+                        <li><a href="services.html#car">Car Insurance</a></li>
+                        <li><a href="services.html#funeral">Funeral Cover</a></li>
+                        <li><a href="services.html#investments">Loans & Investments</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Old Mutual Centre, 2 Mutual Place<br>
+                    Pinelands, Cape Town, 7405<br>
+                    South Africa</p>
+                    <p>Phone: +27 21 509 2911</p>
+                </div>
+
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-media">
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Old Mutual. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
